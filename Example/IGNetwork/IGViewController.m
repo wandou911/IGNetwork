@@ -7,7 +7,8 @@
 //
 
 #import "IGViewController.h"
-#import ""
+#import <IGNetworkManager.h>
+
 @interface IGViewController ()
 
 @end
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [[[IGNetworkManager alloc] init]testPrint:@"打印测试"];
 }
 
 - (void)didReceiveMemoryWarning

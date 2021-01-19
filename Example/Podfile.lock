@@ -8,7 +8,7 @@ PODS:
 
 DEPENDENCIES:
   - FBSnapshotTestCase
-  - IGNetwork (from `../`)
+  - IGNetwork (from `https://github.com/wandou911/IGNetwork.git`)
 
 SPEC REPOS:
   trunk:
@@ -16,12 +16,17 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   IGNetwork:
-    :path: "../"
+    :git: https://github.com/wandou911/IGNetwork.git
+
+CHECKOUT OPTIONS:
+  IGNetwork:
+    :commit: 026baea1ed8d6d61556fe10f51695e1d288dfad1
+    :git: https://github.com/wandou911/IGNetwork.git
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   IGNetwork: aa6cb0f5bf3c90f7071526d773e9244ea57f3124
 
-PODFILE CHECKSUM: 6f997735c0fa23cc593b2820f708871c2675591d
+PODFILE CHECKSUM: ec8f12fd52e9c29bb2bc2d3d31aa164b72bf70e8
 
 COCOAPODS: 1.9.3

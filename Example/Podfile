@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'IGNetwork_Example' do
-  pod 'IGNetwork', :path => '../'
+  pod 'IGNetwork',:git => 'https://github.com/wandou911/IGNetwork.git‘
 
   target 'IGNetwork_Tests' do
     inherit! :search_paths

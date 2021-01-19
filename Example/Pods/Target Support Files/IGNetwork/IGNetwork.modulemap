@@ -1,0 +1,6 @@
+framework module IGNetwork {
+  umbrella header "IGNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -59,14 +59,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		66E3F520AB72B7FB0CD2653C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		66E3F520AB72B7FB0CD2653C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		692B1863FE4A84E704644750 /* Pods-IGNetwork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGNetwork_Example.debug.xcconfig"; path = "Target Support Files/Pods-IGNetwork_Example/Pods-IGNetwork_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91C73CF3B6EDC92CF63D2C3F /* Pods-IGNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGNetwork_Tests.debug.xcconfig"; path = "Target Support Files/Pods-IGNetwork_Tests/Pods-IGNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A96623DE06811D9A2D04E9B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A96623DE06811D9A2D04E9B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CA03EB419572B8D6201BAE93 /* Pods_IGNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IGNetwork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDBBE945AA3B16E957502A63 /* IGNetwork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = IGNetwork.podspec; path = ../IGNetwork.podspec; sourceTree = "<group>"; };
+		FDBBE945AA3B16E957502A63 /* IGNetwork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = IGNetwork.podspec; path = ../IGNetwork.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				91C73CF3B6EDC92CF63D2C3F /* Pods-IGNetwork_Tests.debug.xcconfig */,
 				107DC17D71EE8ABCC622195A /* Pods-IGNetwork_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = wandou911;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = E59A4674AP;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -513,6 +516,7 @@
 			baseConfigurationReference = 692B1863FE4A84E704644750 /* Pods-IGNetwork_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E59A4674AP;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IGNetwork/IGNetwork-Prefix.pch";
 				INFOPLIST_FILE = "IGNetwork/IGNetwork-Info.plist";
@@ -529,6 +533,7 @@
 			baseConfigurationReference = 21C5E7CB8CA214EBCBA0C8A3 /* Pods-IGNetwork_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E59A4674AP;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IGNetwork/IGNetwork-Prefix.pch";
 				INFOPLIST_FILE = "IGNetwork/IGNetwork-Info.plist";
